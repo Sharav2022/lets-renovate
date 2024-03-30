@@ -1,0 +1,93 @@
+.header {
+  padding: 18px 0px;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  max-width: 1400px;
+  background-color: rgb(var(--color_36));
+}
+.container {
+  display: flex;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 1rem;
+  height: 93px;
+}
+.logo_container {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  position: relative;
+}
+.logo_container span {
+  font-size: 1.5rem;
+  color: var(--color-primary);
+  white-space: nowrap;
+  font-weight: 600;
+}
+.logo {
+  width: 47px;
+  height: 44px;
+  margin-right: 0.4375rem;
+  display: flex;
+}
+.right_container {
+  display: none;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.social_icons {
+  display: none;
+  flex-direction: row;
+  gap: 0px;
+}
+
+.social_icon {
+  transform: scale(0.5);
+  cursor: pointer;
+  margin: 0px -5px;
+}
+
+.social_icon > svg path {
+  fill: black;
+}
+
+.item {
+  color: rgb(var(--color_15));
+  font-size: 14px;
+  padding: 0px 10px;
+  transition: var(--trans,color .4s ease 0s);
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 300;
+}
+
+.item[data-active] {
+  color: rgb(var(--color_18));
+}
+.item:hover {
+  color: rgb(var(--color_18));
+}
+
+.menu {
+  display: flex;
+  cursor: pointer;
+}
+
+.wrapper {
+  position: relative;
+}
+
+@media screen and (min-width: 992px) {
+  .menu {
+    display: none;
+  }
+  .right_container {
+    display: flex;
+  }
+  .social_icons {
+    display: flex;
+  }
+}
