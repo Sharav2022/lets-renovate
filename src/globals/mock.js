@@ -312,7 +312,7 @@ export const HeaderItems = [
   {
     id: 2,
     title: "Work",
-    url: "404",
+    url: "work",
   },
   {
     id: 4,
@@ -445,42 +445,47 @@ export const SUPPORT_GET_IN_TOUCH_DESC =
   "Fill out the form, or call us to set up a free in-home consultation.";
 
 export const ABOUT_US_TITLE = "Who we are?";
-export const ABOUT_US_WHO_WE_ARE = [
-  `${COMPANY_NAME} is a IT Solutions company, delivering services which includes Product Design, Web development and Software Testing. With the best practices and tailored guidelines, we created delightful experiences for our clients. We have earned a prominent and valuable position as a IT Company in India and the Canada.`,
-  "Our products are designed to improve the work-life balance and management of our clients, helping them to achieve greater success and satisfaction. Whether it's through our mobile application development services, our online ERP system, or our redirect tracker tool, we aim to provide solutions that make managing a business easier and more efficient. We understand that running a business can be stressful, which is why we strive to create products that help our clients manage their workload and achieve a better work-life balance.",
-];
+export const ABOUT_US_SUB_HEADLINE =
+  "With years of expertise in the renovation industry, our team brings a unique blend of creativity and expertise to every project we undertake. From kitchen remodels to comprehensive interior and exterior renovations, we strive to exceed expectations, delivering exceptional results that inspire and delight.";
+export const ABOUT_US_IMAGE = "/images/about_us_banner.webp";
+export const ABOUT_US_WHO_WE_ARE =
+  "With a commitment to quality craftsmanship and personalized service, we are your trusted partner in bringing your dream home to life. Welcome to our world of renovation excellence. From initial consultation to final walkthrough, we prioritize clear communication and collaboration, ensuring your vision is realized with precision and care.";
 
 export const HOW_WE_ARE = [
   {
     id: 1,
-    title: "Customer Focused product development",
+    mediaUrl: "/images/process/p1.webp",
+    title: "Preconstruction Design",
     description:
-      "Throughout the design and development process we meet with you on a regular basis to gather feedback and ensure we are meeting your specific requirements.",
+      "Detailed planning sessions to craft your project's blueprint, ensuring every aspect aligns with your vision and requirements.",
   },
   {
     id: 2,
-    title: "Long-term partnerships with clients",
+    mediaUrl: "/images/process/p2.webp",
+    title: "Design & Construction Estimate",
     description:
-      "Even after deploying the initial product, we remain on your side, helping you go to market, maintaining the application and building future phases.",
+      "Comprehensive cost breakdowns and detailed plans to bring your vision to life affordably and efficiently.",
   },
   {
     id: 3,
-    title: "Scalable designs and clean code",
+    mediaUrl: "/images/process/p3.webp",
+    title: "On-Site Consultations",
     description:
-      "We use modern design and development practices to future-proof our solutions so they can continue to service our customers as they grow.",
+      "Expert advice and support provided directly at your project site, ensuring smooth execution and addressing any concerns.",
   },
   {
     id: 4,
-    title: "Agile Thinking",
+    mediaUrl: "/images/process/p4.webp",
+    title: "The Finishing Touches",
     description:
-      "We prioritize collaboration, adaptability to change, and short iterative development cycles. By embracing Agile principles, we deliver high-quality solutions that align with our clients’ unique and evolving needs.",
+      "Adding final flourishes and details to your project, elevating its aesthetic appeal and ensuring perfection in every aspect.",
   },
-  {
-    id: 5,
-    title: "Innovation",
-    description:
-      "Our design and development process provides a powerful framework for facilitating opportunity definition and idea development.",
-  },
+];
+
+export const GUARANTEES = [
+  `At ${COMPANY_NAME}, our Quality Guarantee is more than just a promise—it's a cornerstone of our commitment to excellence. We pride ourselves on delivering top-notch craftsmanship and superior service with every project we undertake. From the initial consultation to the final touches, our dedicated team ensures that every aspect of your renovation meets the highest standards of quality and craftsmanship.`,
+  `We understand that your home is a reflection of your personal style and aspirations. That's why we go above and beyond to ensure that every detail of your project is executed with precision and care. Our team of experienced professionals combines industry expertise with a passion for perfection, resulting in stunning transformations that exceed expectations.`,
+  `With our Quality Guarantee, you can rest assured that your renovation project is in good hands. We stand behind the quality of our workmanship and materials, and we are committed to your complete satisfaction. From concept to completion, we are here to make your vision a reality and to ensure that your home is not just renovated, but transformed into a space you'll love for years to come.`,
 ];
 
 export const TESTIMONIALS = [
