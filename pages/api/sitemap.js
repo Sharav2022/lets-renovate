@@ -3,7 +3,7 @@ import { Services } from "../../src/globals/mock";
 const sitemaps = [
   {
     id: 1,
-    context: "support",
+    context: "contact-us",
   },
   {
     id: 2,
@@ -11,7 +11,7 @@ const sitemaps = [
   },
   {
     id: 3,
-    context: "it-consulting",
+    context: "work",
   },
   {
     id: 4,

@@ -1,20 +1,14 @@
 import classes from "./support.module.css";
-import BlackBg from "../../src/assets/icons/black-bg.svg";
 import {
-  OFFICIAL_MAIL,
   SUPPORT_GET_IN_TOUCH_DESC,
   SUPPORT_GET_IN_TOUCH_TITLE,
-  SocialLinks,
 } from "../../src/globals/mock";
-import PhoneIcon from "../../src/assets/icons/phone-outgoing.svg";
-import MailIcon from "../../src/assets/icons/mail.svg";
 import TextField from "../../src/components/core/TextField";
 import { useEffect, useState } from "react";
 import { isEnabled } from "../../src/lib/common";
 import axios from "axios";
 import Animate from "../../src/components/core/Animate";
 import MetaInfo from "../../src/components/main/MetaInfo";
-import { poppins } from "../../src/lib/fonts";
 
 const initialState = {
   firstName: undefined,
