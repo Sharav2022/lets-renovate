@@ -20,11 +20,11 @@ const nextConfig = () => {
       return [
         {
           source: "/robots.txt",
-          destination: `/api/robots?secret=q_provibe`,
+          destination: `/api/robots?secret=lets_renovate`,
         },
         {
           source: "/sitemap.xml",
-          destination: "/api/sitemap?secret=q_provibe",
+          destination: "/api/sitemap?secret=lets_renovate",
         },
       ];
     },
