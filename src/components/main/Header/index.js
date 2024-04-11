@@ -42,7 +42,7 @@ const Header = (props) => {
           <div className={classes.logo}>
             <LogoIcon />
           </div>
-          <span style={{ maxWidth: 180 }}>{COMPANY_NAME}</span>
+          <span>{COMPANY_NAME}</span>
         </div>
         <div className={classes.right_container}>
           {HeaderItems.map((item, index) => (
