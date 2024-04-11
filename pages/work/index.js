@@ -14,13 +14,11 @@ const WorkPage = () => {
           You’re invited to browse a selection of recently completed projects
           below.
         </h4>
-        <Animate>
-          <div className={classes.services}>
-            {Services.map((service) => (
-              <WorkCard {...service} />
-            ))}
-          </div>
-        </Animate>
+        <div className={classes.services}>
+          {Services.map((service) => (
+            <WorkCard {...service} />
+          ))}
+        </div>
         <Animate>
           <div className={classes.free_estimate}>
             <div className={classes.txt}>
