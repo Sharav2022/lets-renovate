@@ -24,7 +24,6 @@ const WorkCard = ({ title, mediaUrl, works = [] }) => {
         arrowHandler();
       }, 2000);
     }
-
     return () => (timer ? clearInterval(timer) : undefined);
   }, [showGallery]);
 
@@ -61,16 +60,16 @@ const WorkCard = ({ title, mediaUrl, works = [] }) => {
                   {works[currentImage].description}
                 </div>
               </div>
-              <div
-                className={classes.cross_g}
-                onClick={(event) => {
-                  setShowGallery(false);
-                  event.stopPropagation();
-                }}
-              >
-                <CrossIcon />
-              </div>
             </div>
+          </div>
+          <div
+            className={classes.cross_g}
+            onClick={(event) => {
+              setShowGallery(false);
+              event.stopPropagation();
+            }}
+          >
+            <CrossIcon />
           </div>
         </Scroll>
       )}
