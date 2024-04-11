@@ -5,17 +5,10 @@ import FacebookIcon from "../assets/icons/facebook.svg";
 import TwitterIcon from "../assets/icons/twitter.svg";
 import InstagramIcon from "../assets/icons/instagram.svg";
 
-import AnalyticsIcon from "../assets/icons/why-us/analytics.svg";
-import CMSIcon from "../assets/icons/why-us/cms.svg";
-import RocketIcon from "../assets/icons/why-us/rocket.svg";
-import MobileAppIcon from "../assets/icons/why-us/mobile-app.svg";
-import TimerIcon from "../assets/icons/why-us/timer.svg";
-import WebSearchIcon from "../assets/icons/why-us/web-search.svg";
-
 import HomeBannerImage from "../assets/images/home_banner.webp";
 import HomeSecondBannerImage from "../assets/images/home_banner_2.webp";
 
-export const COMPANY_NAME = "M&B Remodeling";
+export const COMPANY_NAME = "Reliable Building Solutions";
 
 export const HOME_BANNER = {
   id: "home_banner",
@@ -76,6 +69,43 @@ export const Services = [
         id: 6,
         title: "Kitchen Images",
         mediaUrl: "/images/services/kitchens/K6.webp",
+      },
+    ],
+    works: [
+      {
+        id: 1,
+        title: "Modern Kitchen Renovation",
+        description:
+          "Transformed a dated kitchen into a sleek and functional space. Our expert team upgraded the cabinetry, countertops, and appliances, creating a contemporary cooking haven.",
+        mediaUrl: "/images/services/works/kitchens/k1.jpeg",
+      },
+      {
+        id: 2,
+        title: "Rustic Charm Kitchen Makeover",
+        description:
+          "Bringing warmth and character to a kitchen space with a rustic makeover. From reclaimed wood accents to farmhouse-style fixtures, our renovation adds cozy appeal to any home.",
+        mediaUrl: "/images/services/works/kitchens/k2.jpeg",
+      },
+      {
+        id: 3,
+        title: "Budget-Friendly Kitchen Remodel",
+        description:
+          "Achieving stunning results without breaking the bank. Our budget-friendly remodel maximizes space and functionality, proving that a beautiful kitchen is within reach for every homeowner.",
+        mediaUrl: "/images/services/works/kitchens/k3.jpeg",
+      },
+      {
+        id: 4,
+        title: "Luxurious Kitchen Upgrade",
+        description:
+          "Bringing warmth and character to a kitchen space with a rustic makeover. From reclaimed wood accents to farmhouse-style fixtures, our renovation adds cozy appeal to any home.",
+        mediaUrl: "/images/services/works/kitchens/k4.jpeg",
+      },
+      {
+        id: 5,
+        title: "Open Concept Kitchen Transformation",
+        description:
+          "Breaking down walls and barriers to create an open, inviting kitchen space. Our renovation seamlessly integrates the kitchen with the rest of the home, fostering connectivity and flow.",
+        mediaUrl: "/images/services/works/kitchens/k5.jpeg",
       },
     ],
   },

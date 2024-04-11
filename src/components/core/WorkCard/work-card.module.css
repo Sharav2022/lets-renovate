@@ -3,11 +3,11 @@
   flex-direction: column;
   align-items: center;
   gap: 2rem;
-  position: relative;
+  cursor: pointer;
 }
 
 .image_container {
-  cursor: pointer;
+  position: relative;
   transition: all 0.2s ease-in-out;
 }
 .image_container:hover {
@@ -36,7 +36,8 @@
   max-width: 97%;
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
 }
 
 .description {
@@ -118,6 +119,96 @@
   display: flex;
   flex-direction: column;
   gap: 1rem;
+}
+
+.gallery_overlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(245, 245, 245, 1) !important;
+  height: 600px;
+  width: 100vw;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.gallery {
+  padding: 0px 4rem;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  position: relative;
+}
+
+.l_la,
+.l_ra {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.l_la svg {
+  filter: drop-shadow(0px 1px 0.15px #b2b2b2);
+}
+
+.l_ra svg {
+  filter: drop-shadow(0px 1px 0.15px #b2b2b2);
+}
+
+.l_a {
+  position: absolute;
+  top: 50%;
+}
+
+.l_g {
+  display: flex;
+  flex: 0 0 60%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.r_g {
+  display: flex;
+  flex: 0 0 40%;
+  flex-direction: column;
+  padding-right: 4rem;
+}
+
+.g_img {
+  /* width: 80%; */
+  max-height: 420px;
+  transition: all 0.2s ease-in-out;
+}
+
+.g_title {
+  display: flex;
+  font-weight: 20px;
+  font-weight: 800;
+  color: #1e1e1e;
+  padding-bottom: 24px;
+}
+.g_desc {
+  display: flex;
+  font-weight: 14px;
+  font-weight: 300;
+  color: #1e1e1e;
+}
+
+.cross_g {
+  position: absolute;
+  right: 50px;
+  top: 25px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
 }
 
 @media screen and (min-width: 768px) {

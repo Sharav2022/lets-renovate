@@ -332,3 +332,8 @@ textarea::-webkit-input-placeholder {
   margin: 2rem 0px;
   text-decoration: none;
 }
+
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}

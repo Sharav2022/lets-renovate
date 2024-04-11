@@ -42,7 +42,7 @@ const Header = (props) => {
           <div className={classes.logo}>
             <LogoIcon />
           </div>
-          <span>{COMPANY_NAME}</span>
+          <span style={{ maxWidth: 180 }}>{COMPANY_NAME}</span>
         </div>
         <div className={classes.right_container}>
           {HeaderItems.map((item, index) => (
@@ -64,16 +64,11 @@ const Header = (props) => {
               )}
             </div>
           ))}
-           <div
-              className={classes.wrapper}
-            >
-               <a
-                  className={classes.item}
-                  href="tel:123-456-7890"
-                >
-                  123-456-7890
-                </a>
-            </div>
+          <div className={classes.wrapper}>
+            <a className={classes.item} href="tel:123-456-7890">
+              123-456-7890
+            </a>
+          </div>
         </div>
         <div className={classes.menu} onClick={() => setShowMenu(true)}>
           <MenuIcon />
