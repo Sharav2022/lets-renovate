@@ -65,8 +65,8 @@ const Header = (props) => {
             </div>
           ))}
           <div className={classes.wrapper}>
-            <a className={classes.item} href="tel:123-456-7890">
-              123-456-7890
+            <a className={classes.item} >
+              +1 (647) 588-0099
             </a>
           </div>
         </div>
