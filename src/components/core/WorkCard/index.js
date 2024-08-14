@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import RightArrow from "../../../assets/icons/right_arrow.svg";
 import LeftArrow from "../../../assets/icons/left_arrow.svg";
 import CrossIcon from "../../../assets/icons/cross.svg";
-
+import Carousel_New from "../Carousel_New/carousel_new";
 const WorkCard = ({ title, mediaUrl, works = [] }) => {
   const [showGallery, setShowGallery] = useState(false);
   const [currentImage, setCurrentImage] = useState(0);
@@ -35,14 +35,16 @@ const WorkCard = ({ title, mediaUrl, works = [] }) => {
       </div>
       {works.length > 0 && showGallery && (
         <Scroll>
+
           <div className={classes.gallery_overlay}>
-            <div className={classes.gallery}>
+            <Carousel_New works={works}/>
+            
+             {/* <div className={classes.gallery}>
               <div className={classes.l_g}>
                 <div className={classes.l_la} onClick={arrowHandler}>
                   <LeftArrow />
                 </div>
-                <img
-                  src={works[currentImage].mediaUrl}
+                <img src={works[currentImage].mediaUrl}
                   className={classes.g_img}
                 />
                 <div
@@ -60,8 +62,8 @@ const WorkCard = ({ title, mediaUrl, works = [] }) => {
                   {works[currentImage].description}
                 </div>
               </div>
-            </div>
-          </div>
+            </div>   */}
+          </div> 
           <div
             className={classes.cross_g}
             onClick={(event) => {
