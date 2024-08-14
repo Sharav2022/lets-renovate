@@ -5,7 +5,7 @@ import FacebookIcon from "../assets/icons/facebook.svg";
 import TwitterIcon from "../assets/icons/twitter.svg";
 import InstagramIcon from "../assets/icons/instagram.svg";
 
-import HomeBannerImage from "../assets/images/home_banner.webp";
+import HomeBannerImage from "../assets/images/ext5.jpg";
 import HomeSecondBannerImage from "../assets/images/home_banner_2.webp";
 
 export const COMPANY_NAME = "Reliable Building Solutions";
