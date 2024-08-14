@@ -74,39 +74,45 @@ export const Services = [
     works: [
       {
         id: 1,
-        title: "Modern Kitchen Renovation",
+        title: "Modern Kitchen Renovation ",
         description:
           "Transformed a dated kitchen into a sleek and functional space. Our expert team upgraded the cabinetry, countertops, and appliances, creating a contemporary cooking haven.",
-        mediaUrl: "/images/services/works/kitchens/k1.jpeg",
+        mediaUrl: "/images/services/works/kitchens/kitchen1.jpg",
       },
       {
         id: 2,
         title: "Rustic Charm Kitchen Makeover",
         description:
           "Bringing warmth and character to a kitchen space with a rustic makeover. From reclaimed wood accents to farmhouse-style fixtures, our renovation adds cozy appeal to any home.",
-        mediaUrl: "/images/services/works/kitchens/k2.jpeg",
+        mediaUrl: "/images/services/works/kitchens/kitchen2.jpg",
       },
       {
         id: 3,
         title: "Budget-Friendly Kitchen Remodel",
         description:
           "Achieving stunning results without breaking the bank. Our budget-friendly remodel maximizes space and functionality, proving that a beautiful kitchen is within reach for every homeowner.",
-        mediaUrl: "/images/services/works/kitchens/k3.jpeg",
+        mediaUrl: "/images/services/works/kitchens/kitchen3.jpg",
       },
       {
         id: 4,
         title: "Luxurious Kitchen Upgrade",
         description:
           "Bringing warmth and character to a kitchen space with a rustic makeover. From reclaimed wood accents to farmhouse-style fixtures, our renovation adds cozy appeal to any home.",
-        mediaUrl: "/images/services/works/kitchens/k4.jpeg",
+        mediaUrl: "/images/services/works/kitchens/kitchen4.jpg",
       },
       {
         id: 5,
         title: "Open Concept Kitchen Transformation",
         description:
           "Breaking down walls and barriers to create an open, inviting kitchen space. Our renovation seamlessly integrates the kitchen with the rest of the home, fostering connectivity and flow.",
-        mediaUrl: "/images/services/works/kitchens/k5.jpeg",
-      },
+        mediaUrl: "/images/services/works/kitchens/kitchen5.jpeg",
+      },  {
+        id: 6,
+        title: "Open Concept Kitchen Transformation",
+        description:
+          "Breaking down walls and barriers to create an open, inviting kitchen space. Our renovation seamlessly integrates the kitchen with the rest of the home, fostering connectivity and flow.",
+        mediaUrl: "/images/services/works/kitchens/kitchen6.jpg",
+      }
     ],
   },
   {
