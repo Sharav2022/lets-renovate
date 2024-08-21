@@ -21,8 +21,8 @@ export const HOME_BANNER = {
 export const HOME_SECOND_BANNER = {
   id: "home_banner_2",
   backgroundImage: HomeSecondBannerImage,
-  title: "The Leading Bay Area Remodeling Company",
-  subtitle: `Renovation excellence awaits at ${COMPANY_NAME}. From kitchen makeovers to complete home transformations, trust us for unmatched quality and customer satisfaction.The Leading Bay Area Remodeling Company`,
+  title: "The Leading Remodeling Company in GTA",
+  subtitle: `Renovation excellence awaits at ${COMPANY_NAME}. From kitchen makeovers to complete home transformations, trust us for unmatched quality and customer satisfaction.The Leading Remodeling Company in GTA`,
   buttonText: "More About Us",
   buttonUrl: "/about-us",
 };
@@ -144,17 +144,17 @@ export const Services = [
       {
         id: 4,
         title: "Bathroom Images",
-        mediaUrl: "/images/services/bathrooms/B4.webp",
+        mediaUrl: "/images/services/bathrooms/b4.jpg",
       },
       {
         id: 5,
         title: "Bathroom Images",
-        mediaUrl: "/images/services/bathrooms/B5.webp",
+        mediaUrl: "/images/services/bathrooms/b5.jpg",
       },
       {
         id: 6,
         title: "Bathroom Images",
-        mediaUrl: "/images/services/bathrooms/B6.webp",
+        mediaUrl: "/images/services/bathrooms/b6.jpg",
       },
     ],
   },
@@ -187,7 +187,7 @@ export const Services = [
       {
         id: 4,
         title: "Interiors Images",
-        mediaUrl: "/images/services/interiors/I4.webp",
+        mediaUrl: "/images/services/interiors/I4.jpg",
       },
       {
         id: 5,
@@ -197,7 +197,7 @@ export const Services = [
       {
         id: 6,
         title: "Interiors Images",
-        mediaUrl: "/images/services/interiors/I6.webp",
+        mediaUrl: "/images/services/interiors/I6.jpg",
       },
     ],
   },
@@ -245,7 +245,7 @@ export const Services = [
   },
   {
     id: "exteriors",
-    mediaUrl: "/images/services/exteriors.jpeg",
+    mediaUrl: "/images/services/exteriors/E5.jpg",
     title: "Exteriors",
     description:
       "Boost your home's curb appeal with updated siding, windows, and entryways tailored to your home's style.",
@@ -261,7 +261,7 @@ export const Services = [
       {
         id: 2,
         title: "Exterior Images",
-        mediaUrl: "/images/services/exteriors/E2.webp",
+        mediaUrl: "/images/services/exteriors/E2.png",
       },
       {
         id: 3,
@@ -276,18 +276,18 @@ export const Services = [
       {
         id: 5,
         title: "Exterior Images",
-        mediaUrl: "/images/services/exteriors/E5.webp",
+        mediaUrl: "/images/services/exteriors/E5.jpg",
       },
       {
         id: 6,
         title: "Exterior Images",
-        mediaUrl: "/images/services/exteriors/E6.webp",
+        mediaUrl: "/images/services/exteriors/E6.jpeg",
       },
     ],
   },
   {
     id: "sunrooms",
-    mediaUrl: "/images/services/sunrooms.webp",
+    mediaUrl: "/images/services/sunrooms/S2.jpg",
     title: "Sunrooms",
     description:
       "Create a serene retreat with a custom-designed sunroom, blending indoor comfort with outdoor views and tranquility.",
@@ -303,12 +303,12 @@ export const Services = [
       {
         id: 2,
         title: "Sunroom Images",
-        mediaUrl: "/images/services/sunrooms/S2.webp",
+        mediaUrl: "/images/services/sunrooms/S2.jpg",
       },
       {
         id: 3,
         title: "Sunroom Images",
-        mediaUrl: "/images/services/sunrooms/S3.webp",
+        mediaUrl: "/images/services/sunrooms/S3.jpg",
       },
       {
         id: 4,
@@ -318,7 +318,7 @@ export const Services = [
       {
         id: 5,
         title: "Sunroom Images",
-        mediaUrl: "/images/services/sunrooms/S5.webp",
+        mediaUrl: "/images/services/sunrooms/S5.jpg",
       },
       {
         id: 6,
