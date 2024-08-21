@@ -113,7 +113,7 @@ export const Services = [
           "Breaking down walls and barriers to create an open, inviting kitchen space. Our renovation seamlessly integrates the kitchen with the rest of the home, fostering connectivity and flow.",
         mediaUrl: "/images/services/works/kitchens/kitchen6.jpg",
       }
-    ],
+    ]
   },
   {
     id: "bathrooms",
@@ -157,6 +157,86 @@ export const Services = [
         mediaUrl: "/images/services/bathrooms/b6.jpg",
       },
     ],
+    works:[
+      {
+        id: 1,
+        title: "Spa-Like Bathroom Retreat",
+        description:
+            "Turned an ordinary bathroom into a luxurious spa retreat. Our team installed a rainfall shower, a soaking tub, and elegant tiles, creating a serene escape from daily life.",
+        mediaUrl: "/images/services/works/bathroom/bathroom1.webp",
+      },
+      {
+        id: 2,
+        title: "Modern Minimalist Bathroom",
+        description:
+            "A sleek, clutter-free design that emphasizes clean lines and functionality. Our renovation focused on maximizing space with smart storage solutions and contemporary fixtures.",
+        mediaUrl: "/images/services/works/bathroom/bathroom2.webp",
+      },
+      {
+        id: 3,
+        title: "Vintage Bathroom Restoration",
+        description:
+            "Brought a vintage bathroom back to life with a restoration that honors its original charm. We preserved classic features while updating plumbing and lighting for modern comfort.",
+        mediaUrl: "/images/services/works/bathroom/bathroom3.jpg",
+      },
+      {
+        id: 4,
+        title: "Small Space Bathroom Makeover",
+        description:
+            "Maximized every inch of a small bathroom to create a functional and stylish space. Our renovation included compact fixtures and clever storage to enhance usability.",
+        mediaUrl: "/images/services/works/bathroom/bathroom4.jpg",
+      },
+      {
+        id: 5,
+        title: "Luxury Master Bathroom Suite",
+        description:
+            "Transformed a master bathroom into a lavish suite with high-end finishes. We added a double vanity, a walk-in shower, and custom lighting to create a truly opulent space.",
+        mediaUrl: "/images/services/works/bathroom/bathroom5.webp",
+      },
+      {
+        id: 6,
+        title: "Eco-Friendly Bathroom Renovation",
+        description:
+            "A sustainable renovation that combines style and eco-consciousness. We installed water-saving fixtures, energy-efficient lighting, and natural materials to create an environmentally friendly bathroom.",
+        mediaUrl: "/images/services/works/bathroom/bathroom6.jpg",
+      },
+      {
+        id: 7,
+        title: "Contemporary Wet Room Design",
+        description:
+            "Designed a modern wet room with seamless, open-plan features. Our renovation included waterproof finishes, a walk-in shower, and minimalist design elements.",
+        mediaUrl: "/images/services/works/bathroom/bathroom7.jpg",
+      },
+      {
+        id: 8,
+        title: "Classic White Bathroom",
+        description:
+            "A timeless white bathroom that exudes elegance and simplicity. We used white subway tiles, a clawfoot tub, and vintage-inspired fixtures for a classic look.",
+        mediaUrl: "/images/services/works/bathroom/bathroom8.jpg",
+      },
+      {
+        id: 9,
+        title: "Coastal-Inspired Bathroom",
+        description:
+            "Brought the tranquility of the coast to the bathroom with soft blues, natural textures, and airy design. Our renovation creates a beachy vibe, perfect for relaxation.",
+        mediaUrl: "/images/services/works/bathroom/bathroom9.jpg",
+      },
+      {
+        id: 10,
+        title: "High-Tech Bathroom Innovation",
+        description:
+            "Incorporated cutting-edge technology into the bathroom with smart mirrors, digital showers, and underfloor heating. Our renovation offers the ultimate in modern convenience.",
+        mediaUrl: "/images/services/works/bathroom/bathroom10.jpg",
+      },
+      {
+        id: 11,
+        title: "Industrial Chic Bathroom",
+        description:
+            "A bathroom with an industrial edge, featuring exposed brick, metal fixtures, and concrete finishes. Our renovation merges urban style with functional design.",
+        mediaUrl: "/images/services/works/bathroom/bathroom11.webp",
+      }
+    ]
+
   },
   {
     id: "interiors",
@@ -200,6 +280,100 @@ export const Services = [
         mediaUrl: "/images/services/interiors/I6.jpg",
       },
     ],
+    works:[
+      {
+        id: 1,
+        title: "Modern Living Room Transformation",
+        description:
+            "A complete makeover that brought modern elegance to a living room. We integrated sleek furniture, minimalist décor, and ambient lighting to create a stylish, inviting space.",
+        mediaUrl: "/images/services/works/interiors/livingroom1.jpg",
+      },
+      {
+        id: 2,
+        title: "Cozy Rustic Living Room",
+        description:
+            "Designed a warm and cozy living room with rustic charm. Our renovation included reclaimed wood beams, a stone fireplace, and earthy tones to create a comfortable retreat.",
+        mediaUrl: "/images/services/works/interiors/livingroom2.jpg",
+      },
+      {
+        id: 3,
+        title: "Elegant Dining Room Redesign",
+        description:
+            "Revamped a dining room with elegance and sophistication. We added a statement chandelier, refined furnishings, and a neutral color palette to enhance the dining experience.",
+        mediaUrl: "/images/services/works/interiors/diningroom1.jpg",
+      },
+      {
+        id: 4,
+        title: "Open-Plan Living and Dining Area",
+        description:
+            "Created a seamless flow between the living and dining areas with an open-plan design. Our renovation optimized space with cohesive décor and multifunctional furniture.",
+        mediaUrl: "/images/services/works/interiors/openplan1.jpg",
+      },
+      {
+        id: 5,
+        title: "Scandinavian-Style Living Room",
+        description:
+            "Brought the simplicity and beauty of Scandinavian design to a living room. We used light wood accents, neutral tones, and functional furniture to achieve a serene and practical space.",
+        mediaUrl: "/images/services/works/interiors/livingroom3.jpg",
+      },
+      {
+        id: 6,
+        title: "Luxurious Master Bedroom Suite",
+        description:
+            "Transformed a master bedroom into a luxurious suite with plush bedding, ambient lighting, and custom closets. The renovation exudes comfort and elegance, perfect for unwinding.",
+        mediaUrl: "/images/services/works/interiors/bedroom1.jpg",
+      },
+      {
+        id: 7,
+        title: "Grand Staircase Renovation",
+        description:
+            "Upgraded a staircase into a grand architectural feature. Our work included custom railings, hardwood steps, and decorative lighting to elevate the entrance of the home.",
+        mediaUrl: "/images/services/works/interiors/staircase1.jpg",
+      },
+      {
+        id: 8,
+        title: "Contemporary Home Office Design",
+        description:
+            "Designed a home office that balances functionality with contemporary style. We incorporated ergonomic furniture, ample storage, and modern décor to create a productive workspace.",
+        mediaUrl: "/images/services/works/interiors/office1.jpg",
+      },
+      {
+        id: 9,
+        title: "Eclectic Family Room Makeover",
+        description:
+            "An eclectic makeover that transformed a family room into a vibrant, lively space. We combined bold colors, patterned textiles, and unique art pieces for a fun and welcoming environment.",
+        mediaUrl: "/images/services/works/interiors/familyroom1.jpg",
+      },
+      {
+        id: 10,
+        title: "Minimalist Entryway Design",
+        description:
+            "Created a minimalist entryway that sets the tone for the home. The renovation included sleek storage solutions, neutral colors, and simple décor for a clean, uncluttered look.",
+        mediaUrl: "/images/services/works/interiors/entryway1.jpg",
+      },
+      {
+        id: 11,
+        title: "Art Deco Dining Room",
+        description:
+            "Designed a dining room with an Art Deco flair, featuring bold geometric patterns, luxurious materials, and metallic accents. The result is a glamorous and timeless space.",
+        mediaUrl: "/images/services/works/interiors/diningroom2.jpg",
+      },
+      {
+        id: 12,
+        title: "Transitional Living Room Update",
+        description:
+            "Updated a living room with a transitional style that bridges traditional and modern design. Our renovation included a mix of classic and contemporary furnishings, creating a harmonious space.",
+        mediaUrl: "/images/services/works/interiors/livingroom4.jpg",
+      },
+      {
+        id: 13,
+        title: "Chic Nursery Room Design",
+        description:
+            "Created a chic and cozy nursery with soft colors, comfortable furnishings, and playful décor. The room is designed to be a peaceful and nurturing environment for a growing family.",
+        mediaUrl: "/images/services/works/interiors/nursery1.jpg",
+      }
+    ]
+
   },
   {
     id: "additions",
