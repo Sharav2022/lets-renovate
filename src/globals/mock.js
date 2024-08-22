@@ -286,91 +286,91 @@ export const Services = [
         title: "Modern Living Room Transformation",
         description:
             "A complete makeover that brought modern elegance to a living room. We integrated sleek furniture, minimalist décor, and ambient lighting to create a stylish, inviting space.",
-        mediaUrl: "/images/services/works/interiors/livingroom1.jpg",
+        mediaUrl: "/images/services/works/interior/I1.webp",
       },
       {
         id: 2,
         title: "Cozy Rustic Living Room",
         description:
             "Designed a warm and cozy living room with rustic charm. Our renovation included reclaimed wood beams, a stone fireplace, and earthy tones to create a comfortable retreat.",
-        mediaUrl: "/images/services/works/interiors/livingroom2.jpg",
+        mediaUrl: "/images/services/works/interior/I2.jpg",
       },
       {
         id: 3,
         title: "Elegant Dining Room Redesign",
         description:
             "Revamped a dining room with elegance and sophistication. We added a statement chandelier, refined furnishings, and a neutral color palette to enhance the dining experience.",
-        mediaUrl: "/images/services/works/interiors/diningroom1.jpg",
+        mediaUrl: "/images/services/works/interior/I3.jpeg",
       },
       {
         id: 4,
         title: "Open-Plan Living and Dining Area",
         description:
             "Created a seamless flow between the living and dining areas with an open-plan design. Our renovation optimized space with cohesive décor and multifunctional furniture.",
-        mediaUrl: "/images/services/works/interiors/openplan1.jpg",
+        mediaUrl: "/images/services/works/interior/I4.jpeg",
       },
       {
         id: 5,
         title: "Scandinavian-Style Living Room",
         description:
             "Brought the simplicity and beauty of Scandinavian design to a living room. We used light wood accents, neutral tones, and functional furniture to achieve a serene and practical space.",
-        mediaUrl: "/images/services/works/interiors/livingroom3.jpg",
+        mediaUrl: "/images/services/works/interior/I5.webp",
       },
       {
         id: 6,
         title: "Luxurious Master Bedroom Suite",
         description:
             "Transformed a master bedroom into a luxurious suite with plush bedding, ambient lighting, and custom closets. The renovation exudes comfort and elegance, perfect for unwinding.",
-        mediaUrl: "/images/services/works/interiors/bedroom1.jpg",
+        mediaUrl: "/images/services/works/interior/I6.jpg",
       },
       {
         id: 7,
         title: "Grand Staircase Renovation",
         description:
             "Upgraded a staircase into a grand architectural feature. Our work included custom railings, hardwood steps, and decorative lighting to elevate the entrance of the home.",
-        mediaUrl: "/images/services/works/interiors/staircase1.jpg",
+        mediaUrl: "/images/services/works/interior/I7.jpg",
       },
       {
         id: 8,
         title: "Contemporary Home Office Design",
         description:
             "Designed a home office that balances functionality with contemporary style. We incorporated ergonomic furniture, ample storage, and modern décor to create a productive workspace.",
-        mediaUrl: "/images/services/works/interiors/office1.jpg",
+        mediaUrl: "/images/services/works/interior/I8.webp",
       },
       {
         id: 9,
         title: "Eclectic Family Room Makeover",
         description:
             "An eclectic makeover that transformed a family room into a vibrant, lively space. We combined bold colors, patterned textiles, and unique art pieces for a fun and welcoming environment.",
-        mediaUrl: "/images/services/works/interiors/familyroom1.jpg",
+        mediaUrl: "/images/services/works/interior/I9.webp",
       },
       {
         id: 10,
         title: "Minimalist Entryway Design",
         description:
             "Created a minimalist entryway that sets the tone for the home. The renovation included sleek storage solutions, neutral colors, and simple décor for a clean, uncluttered look.",
-        mediaUrl: "/images/services/works/interiors/entryway1.jpg",
+        mediaUrl: "/images/services/works/interior/I10.jpg",
       },
       {
         id: 11,
         title: "Art Deco Dining Room",
         description:
             "Designed a dining room with an Art Deco flair, featuring bold geometric patterns, luxurious materials, and metallic accents. The result is a glamorous and timeless space.",
-        mediaUrl: "/images/services/works/interiors/diningroom2.jpg",
+        mediaUrl: "/images/services/works/interior/I11.jpg",
       },
       {
         id: 12,
         title: "Transitional Living Room Update",
         description:
             "Updated a living room with a transitional style that bridges traditional and modern design. Our renovation included a mix of classic and contemporary furnishings, creating a harmonious space.",
-        mediaUrl: "/images/services/works/interiors/livingroom4.jpg",
+        mediaUrl: "/images/services/works/interior/I12.jpeg",
       },
       {
         id: 13,
         title: "Chic Nursery Room Design",
         description:
             "Created a chic and cozy nursery with soft colors, comfortable furnishings, and playful décor. The room is designed to be a peaceful and nurturing environment for a growing family.",
-        mediaUrl: "/images/services/works/interiors/nursery1.jpg",
+        mediaUrl: "/images/services/works/interior/I13.jpg",
       }
     ]
 
@@ -500,7 +500,9 @@ export const Services = [
         mediaUrl: "/images/services/sunrooms/S6.webp",
       },
     ],
+
   },
+
 ];
 
 export const HeaderItems = [

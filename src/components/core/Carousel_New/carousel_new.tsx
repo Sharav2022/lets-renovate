@@ -58,9 +58,9 @@ const Carousel_New = ({works}) => {
         <div className={styles.descriptionContainer}>
           <motion.p variants={textVariants}>{works[activeIndex].description}</motion.p>
         </div>
-        <div>
-          <button className={styles.nav}>Book a consultation</button>
-        </div>
+        {/*<div>*/}
+        {/*  <button className={styles.nav}>Book a consultation</button>*/}
+        {/*</div>*/}
       </motion.div>
       <div className={styles.imagesContainer}>
         <motion.div className={styles.firstContainer}
