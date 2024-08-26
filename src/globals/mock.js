@@ -416,6 +416,51 @@ export const Services = [
         mediaUrl: "/images/services/additions/A6.webp",
       },
     ],
+    works: [
+      {
+        id: 1,
+        title: "Home Gym Addition",
+        description:
+            "Converted an unused basement area into a fully equipped home gym. Installed high-quality flooring, mirrors, and essential workout equipment, providing a convenient fitness space within the home.",
+        mediaUrl: "/images/services/works/additions/addition1.jpg",
+      },
+      {
+        id: 2,
+        title: "Smart Home Technology Integration",
+        description:
+            "Upgraded a traditional home with the latest smart home technology. Added voice-controlled lighting, security systems, and energy-efficient thermostats, enhancing convenience and security.",
+        mediaUrl: "/images/services/works/additions/addition2.jpg",
+      },
+      {
+        id: 3,
+        title: "Luxury Walk-In Closet Addition",
+        description:
+            "Expanded a master bedroom to include a custom walk-in closet. Features include built-in shelving, LED lighting, and premium finishes, creating an organized and luxurious space.",
+        mediaUrl: "/images/services/works/additions/addition3.jpg",
+      },
+      {
+        id: 4,
+        title: "Home Office Setup",
+        description:
+            "Transformed a spare room into a functional home office. Added ergonomic furniture, custom cabinetry, and optimal lighting, creating a productive and comfortable work environment.",
+        mediaUrl: "/images/services/works/additions/addition4.jpg",
+      },
+      {
+        id: 5,
+        title: "Basement Home Theater Addition",
+        description:
+            "Installed a state-of-the-art home theater in the basement. Features include a large screen, surround sound, and custom seating, providing a cinematic experience within the home.",
+        mediaUrl: "/images/services/works/additions/addition5.jpg",
+      },
+      {
+        id: 6,
+        title: "Indoor Sauna Installation",
+        description:
+            "Added a relaxing indoor sauna to a master bathroom suite. The sauna features cedar wood paneling, temperature controls, and a compact design, offering a spa-like experience at home.",
+        mediaUrl: "/images/services/works/additions/addition6.jpg",
+      }
+    ]
+
   },
   {
     id: "exteriors",
@@ -458,6 +503,51 @@ export const Services = [
         mediaUrl: "/images/services/exteriors/E6.jpeg",
       },
     ],
+    works: [
+      {
+        id: 1,
+        title: "Charming Cottage Exterior Renovation",
+        description:
+            "Revitalized a classic Canadian cottage with a fresh exterior makeover. New siding, a welcoming porch, and vibrant landscaping enhance the home's curb appeal and charm.",
+        mediaUrl: "/images/services/works/exteriors/exterior1.jpg",
+      },
+      {
+        id: 2,
+        title: "Modern Urban Home Facade",
+        description:
+            "Transformed a traditional home facade into a modern masterpiece. With sleek lines, contemporary materials, and large windows, this exterior renovation elevates the neighborhood's aesthetic.",
+        mediaUrl: "/images/services/works/exteriors/exterior2.jpg",
+      },
+      {
+        id: 3,
+        title: "Rustic Log Cabin Exterior Update",
+        description:
+            "Updated a rustic log cabin exterior with a thorough cleaning and preservation treatment. The renovation highlights the natural beauty of the wood while ensuring durability against the elements.",
+        mediaUrl: "/images/services/works/exteriors/exterior3.jpg",
+      },
+      {
+        id: 4,
+        title: "Elegant Victorian Home Restoration",
+        description:
+            "Restored a beautiful Victorian home to its former glory with meticulous attention to detail. The new paint scheme, restored trim, and updated roofing breathe new life into this historic exterior.",
+        mediaUrl: "/images/services/works/exteriors/exterior4.jpg",
+      },
+      {
+        id: 5,
+        title: "Contemporary Farmhouse Exterior Refresh",
+        description:
+            "Enhanced a contemporary farmhouse with a fresh coat of paint and stylish outdoor fixtures. This renovation combines modern design elements with traditional charm for a welcoming appearance.",
+        mediaUrl: "/images/services/works/exteriors/exterior5.jpg",
+      },
+      {
+        id: 6,
+        title: "Energy-Efficient Home Exterior Upgrade",
+        description:
+            "Transformed an older home into an energy-efficient haven with new insulation, windows, and eco-friendly materials. This renovation not only enhances aesthetics but also improves energy efficiency.",
+        mediaUrl: "/images/services/works/exteriors/exterior6.jpg",
+      }
+    ]
+
   },
   {
     id: "sunrooms",
@@ -500,6 +590,51 @@ export const Services = [
         mediaUrl: "/images/services/sunrooms/S6.webp",
       },
     ],
+    works: [
+      {
+        id: 1,
+        title: "Cozy Sunroom Addition",
+        description:
+            "Added a warm and inviting sunroom that seamlessly blends with the existing home. Large windows and comfortable seating create the perfect space to enjoy natural light year-round.",
+        mediaUrl: "/images/services/works/sunrooms/sunroom1.jpg",
+      },
+      {
+        id: 2,
+        title: "Elegant Glass-Enclosed Sunroom",
+        description:
+            "Designed a sophisticated glass-enclosed sunroom that offers panoramic views of the outdoors. The sleek design and luxurious finishes provide a serene retreat within the home.",
+        mediaUrl: "/images/services/works/sunrooms/sunroom2.jpg",
+      },
+      {
+        id: 3,
+        title: "Four-Season Sunroom Renovation",
+        description:
+            "Converted an unused patio into a versatile four-season sunroom. With proper insulation and heating, this space is now comfortable and functional throughout the year.",
+        mediaUrl: "/images/services/works/sunrooms/sunroom3.jpg",
+      },
+      {
+        id: 4,
+        title: "Modern Sunroom Expansion",
+        description:
+            "Expanded an existing sunroom to create a larger, more functional space. Floor-to-ceiling windows and minimalist design elements make this sunroom a modern oasis.",
+        mediaUrl: "/images/services/works/sunrooms/sunroom4.jpg",
+      },
+      {
+        id: 5,
+        title: "Nature-Inspired Sunroom Makeover",
+        description:
+            "Revitalized a dated sunroom with nature-inspired elements. The use of natural materials and earthy tones creates a harmonious connection between the indoor space and the surrounding landscape.",
+        mediaUrl: "/images/services/works/sunrooms/sunroom5.jpg",
+      },
+      {
+        id: 6,
+        title: "Luxury Sunroom with Skylights",
+        description:
+            "Transformed an ordinary sunroom into a luxurious retreat by adding skylights and high-end finishes. The room now offers an abundance of natural light and a touch of elegance.",
+        mediaUrl: "/images/services/works/sunrooms/sunroom6.jpg",
+      }
+    ]
+
 
   },
 

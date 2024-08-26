@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from 'react';
+// @ts-ignore
 import styles from './carousel_new.module.scss';
 import Image from 'next/image';
 import { motion } from "framer-motion";

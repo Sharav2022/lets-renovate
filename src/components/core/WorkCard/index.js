@@ -34,7 +34,7 @@ const WorkCard = ({ title, mediaUrl, works = [] }) => {
         <div className={classes.service_name}>{title}</div>
       </div>
       {works.length > 0 && showGallery && (
-        <Scroll>
+        <Scroll >
 
           <div className={classes.gallery_overlay}>
             <Carousel_New works={works}/>
