@@ -40,9 +40,10 @@ const Header = (props) => {
       <div className={"container " + classes.container}>
         <div className={classes.logo_container} onClick={goToHome}>
           <div className={classes.logo}>
-            <LogoIcon />
+            {/*<LogoIcon />*/}
+            <Image src="/icons/ReliableLogoBlack.jpg" alt="logo" width={250} height={100}></Image>
           </div>
-          <span>{COMPANY_NAME}</span>
+          {/*<span>{COMPANY_NAME}</span>*/}
         </div>
         <div className={classes.right_container}>
           {HeaderItems.map((item, index) => (
