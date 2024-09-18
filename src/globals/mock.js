@@ -377,7 +377,7 @@ export const Services = [
   },
   {
     id: "additions",
-    mediaUrl: "/images/services/additions.webp",
+    mediaUrl: "/images/services/addition7.jpg",
     title: "Additions",
     description:
       "Explore our range of custom solutions, from sunrooms that bring nature indoors to luxurious bathroom renovations.",

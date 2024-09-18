@@ -20,7 +20,7 @@ const ServiceCard = ({
   return (
     <div className={classes.container}>
       <div className={classes.image_container} onClick={handleService}>
-        <img src={mediaUrl} fill={true} />
+        <img className={classes.image_zoom} src={mediaUrl} fill={true} />
       </div>
       {title && <div className={classes.service_name}>{title}</div>}
       {description && <div className={classes.description}>{description}</div>}
