@@ -39,30 +39,7 @@ const WorkCard = ({ title, mediaUrl, works = [] }) => {
           <div className={classes.gallery_overlay}>
             <Carousel_New works={works}/>
             
-             {/* <div className={classes.gallery}>
-              <div className={classes.l_g}>
-                <div className={classes.l_la} onClick={arrowHandler}>
-                  <LeftArrow />
-                </div>
-                <img src={works[currentImage].mediaUrl}
-                  className={classes.g_img}
-                />
-                <div
-                  className={classes.l_ra}
-                  onClick={() => arrowHandler("right")}
-                >
-                  <RightArrow />
-                </div>
-              </div>
-              <div className={classes.r_g}>
-                <div className={classes.g_title}>
-                  {works[currentImage].title}
-                </div>
-                <div className={classes.g_desc}>
-                  {works[currentImage].description}
-                </div>
-              </div>
-            </div>   */}
+          
           </div> 
           <div
             className={classes.cross_g}
